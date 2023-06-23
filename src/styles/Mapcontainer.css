@@ -1,0 +1,7 @@
+.map { 
+    width:90%;
+    height:400px;
+ position: static;
+  z-index:-1;
+  
+}

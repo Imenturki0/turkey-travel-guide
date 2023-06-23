@@ -1,0 +1,118 @@
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.place-container {
+    height: 200px;
+    width: 450px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    z-index: 1;
+    background-color: white;
+   /* padding: 10px;*/
+    transition: transform 450ms;
+    border-radius: 5px;
+
+}
+
+.place-container:hover {
+    transform: scale(1.08);
+
+}
+
+.place-container .left {
+  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column; 
+   position:relative;
+   text-align: center;*/
+   
+}
+
+.place-container .right {
+    width: 255px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+    justify-content: space-around;
+    /*background-color: antiquewhite;*/
+    position: relative;
+    
+}
+
+.place-container .left img {
+    border-radius: 5px 0 0 5px;
+ width:100%;
+ height:100%;
+}
+
+
+.place-container .left .place-name {
+    text-shadow: 0 5px 10px rgb(0, 0, 0);
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.place-container .right .detail-btn {
+    /*background-color: transparent; */
+    color: white;
+    border: 1px solid gray;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 100;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.place-container .right .detail-btn:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+
+
+.heart {
+    color: black;
+    opacity: 0.3;
+    width: 30px;
+    height: 30px;
+
+}
+
+.heart-activated {
+    /*animation: heartbeat 1s infinite;*/
+    fill: red;
+    color: red;
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+
+}
+
+.place-container .heart-btn1 {
+    background: none;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin:10px 10px 0 0;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.right .adress{
+ margin-top: 20px;
+}
