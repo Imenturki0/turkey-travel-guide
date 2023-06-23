@@ -1,6 +1,0 @@
-{
-    "welcome": {
-        "title": "Willkommen bei {{framework}}"
-    },
-    "hello":"{{username}}"
-}

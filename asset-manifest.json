@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/turkey-travel-guide/static/css/main.d3f9d2b9.css",
+    "main.js": "/turkey-travel-guide/static/js/main.ffa2f671.js",
+    "static/js/787.6d185335.chunk.js": "/turkey-travel-guide/static/js/787.6d185335.chunk.js",
+    "static/media/pic3.jpeg": "/turkey-travel-guide/static/media/pic3.af8e14d4ba809168c884.jpeg",
+    "static/media/pic1.jpeg": "/turkey-travel-guide/static/media/pic1.7cf1dd11184d40314b07.jpeg",
+    "static/media/pexels-photo-4602279.jpeg": "/turkey-travel-guide/static/media/pexels-photo-4602279.b87db5c4b2e3977bc831.jpeg",
+    "static/media/upload-img.png": "/turkey-travel-guide/static/media/upload-img.e1fe3be999a14f01f3b3.png",
+    "static/media/pic4.jpg": "/turkey-travel-guide/static/media/pic4.8f8e4b66a03bb5eb125d.jpg",
+    "index.html": "/turkey-travel-guide/index.html",
+    "main.d3f9d2b9.css.map": "/turkey-travel-guide/static/css/main.d3f9d2b9.css.map",
+    "main.ffa2f671.js.map": "/turkey-travel-guide/static/js/main.ffa2f671.js.map",
+    "787.6d185335.chunk.js.map": "/turkey-travel-guide/static/js/787.6d185335.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3f9d2b9.css",
+    "static/js/main.ffa2f671.js"
+  ]
+}
