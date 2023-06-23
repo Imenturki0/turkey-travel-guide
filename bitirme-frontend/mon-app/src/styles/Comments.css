@@ -1,0 +1,84 @@
+.comment {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+    padding: 50px;
+}
+
+.Addcomments {
+    width: 100%;
+
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+padding: 10px;
+
+border-radius: 2px;
+}
+.Addcomments .text1{
+    background-color: #ac2222;
+
+    margin: 10px 0px;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+   
+   
+}
+.Addcomments .text1 .link{
+    margin-left: 20px;
+    color: bisque;
+    
+}
+.Addcomments .text1 .link:hover{
+text-decoration: underline;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textarea {
+    outline: none;
+    border: none;
+}
+
+.textarea:focus {
+    border-bottom: 1px solid white;
+}
+
+[contentEditable=true]:empty:before {
+    content: attr(data-text);
+}
+
+.textarea {
+
+border-radius: 2px;
+ background-color:rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 20px 0px;
+  
+    width: 90%;
+    height: auto;
+   
+    overflow:hidden
+}
+
+.button2 {
+    border: 1px solid #a9a9a9;
+    border-radius: 5;
+    width: 200px;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.1);
+    float :right;
+
+}

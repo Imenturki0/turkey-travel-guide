@@ -1,0 +1,195 @@
+
+
+  *{
+    margin:0;padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .nav{
+   z-index: 2;
+  background-color: rgba(0,0,0,0.6);
+    width:100%;
+    height: 9vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /*display: flex;
+  justify-content: center;*/
+  
+    position: fixed;
+}
+
+  .left{
+    float:left;
+  }
+  .right{
+    float: right;
+  }
+  .nav ul{
+    list-style: none;
+  }
+  .nav ul .nav-item{
+    position: relative;
+  
+    
+  
+  }
+  .nav .nav-items .nav-item a,.nav .nav-items li .link,.submenu-item{
+    font-size: 20px;
+   padding:20px;
+    color:aliceblue;
+    display: block;
+    height: 9vh;
+    
+  } 
+  .nav  .nav-items .nav-item a:hover ,.nav ul .submenu-item .link:hover,.submenu-item:hover{
+    background: rgb(0, 0, 0);
+  }
+  .nav ul li .submenu{
+    /*this what make submenu orgonized in small screen*/
+    position: absolute;
+    top:50px;
+    left:0;
+    width:190px;
+  
+  }
+  .submenu
+  {
+    background-color: rgba(0,0,0,0.6);
+  }
+  
+  .nav ul li ul .submenu-item{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+  }
+  .nav .menu-icon{
+     color:aliceblue;
+     font-size: 25px;
+     position: absolute;
+     left:10px;
+     top:25px;
+     display:none;
+     stroke: black;
+     stroke-width: 7px;
+   
+  }
+
+  @media screen and (max-width:800px){
+    .nav .menu-icon{
+      display:block;
+      background-color: none;
+      
+    }
+    .nav{
+     
+      height:fit-content;
+      width:85%;
+      background:none;
+     /* border-top: 1px solid rgba(0,0,0,0.1);*/
+   position:fixed;
+    }
+    .nav .nav-items{
+      margin-top: 70px;
+     
+    }
+    .nav ul .nav-item{
+      width:100%;
+    
+     background-color: rgba(0,0,0,0.6);
+     text-shadow: 0 0 2px rgb(0, 0, 0);
+    }
+    .nav ul li .submenu {
+      position: relative;
+      width:100%;
+      top:0;
+    }
+    .user{
+      position:absolute;
+      top:5px;
+      right:0px;
+      display:block;
+    }
+    .right{
+      float: left;
+    }
+  
+  }
+  .login-menu{
+    position: fixed;
+    top:10px;
+    right:115px;
+  }
+  .user-items{
+   /* position: absolute;
+    top:63px;
+    left:0;*/
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    width:10px;
+    position: absolute;
+    top:61px;
+    left:10px;
+    width:100px;
+  
+    border-radius: 4px;
+  }
+  
+  
+  
+  li .user-item{
+  text-align: center;
+    color:black;
+   padding:5px;
+
+    display: block;
+  }
+  li .user-item:hover{
+    background-color: antiquewhite;
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  .login-menu:before{
+     position:absolute;
+     content:'';
+     height:15px;
+     width:15px;
+     background: white;
+     top:55px;
+     left:25px;
+   transform:rotate(45deg);
+   z-index: -1;
+   border: 1px solid rgba(0,0,0,0.5);
+     
+  }
+  .user{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+   
+    top:5px;
+    right:0px;
+  
+  width: fit-content;
+  float: left;
+  position: fixed;
+  
+  }
+ 
+ 
+  .user-icon{
+   
+    width:35px;
+    height: 35px;
+
+ 
+  }
+  .username{
+    
+    color: aliceblue;
+  margin: 0px 10px;
+  font-size:20px;
+text-shadow: 0 0 2px rgb(0, 0, 0);
+  }
+  

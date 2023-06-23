@@ -1,0 +1,59 @@
+.proprety-type{
+    margin: 0;
+    position: relative;
+    
+}
+.proprety-list{
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.proprety{
+    display: flex;
+    margin: 5px;
+    
+
+}
+.proprety-text{
+    width:150px;
+    margin-left: 10px;
+    
+}
+.title2{
+    width:100%;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+label{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    
+
+}
+input{
+    margin-left: 5px;
+}
+.edit-btn{
+    position: absolute;
+    right:0px;
+    top:10px;
+   
+}
+@media screen and (max-width:900px){
+    .proprety-text{
+        width:100px;
+        margin-left: 10px;
+        font-size: 15px;
+        
+    }
+    .proprety-list{
+
+    flex-wrap: nowrap;
+  flex-direction: column;
+
+
+}
+}

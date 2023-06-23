@@ -1,0 +1,125 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.popup-inner {
+    position: relative;
+    /*height:200px;*/
+    height: fit-content;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.inputs {
+
+    display: flex;
+    column-gap: 10px;
+    padding: 20px;
+}
+
+.inputs label img {
+
+    height: 45px;
+    width: 45px;
+
+}
+
+.left-side,
+.right-side {
+    width: 250px;
+    /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    padding: 20px;
+
+}
+
+
+.left-side .image {
+    height: 150px;
+    width: 100%;
+
+}
+
+.right-side .dropdown {
+    font-size: larger;
+    /* width: 200px;*/
+    border: none;
+    height: fit-content;
+    width: 100%;
+
+}
+
+
+
+/*.label{
+    font-size:15px ;
+    color:rgba(0, 0, 0, 0.8);
+    font-weight:700;
+  }*/
+
+
+
+.popup-inner .buttons {
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.popup-inner .btn {
+    font-size: large;
+    padding: 10px 15px;
+    width: 100px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.popup-inner .btn {
+    background-color: rgb(55, 104, 150);
+    height: fit-content;
+
+}
+
+.popup-inner .buttons .delete ,.popup-inner .buttons .cancel{
+    background-color: rgb(161, 34, 34);
+}
+
+.show {
+    top: 50px;
+    transition: top 1s ease;
+}
+
+.hide {
+    top: 25px;
+}
+
+.right-side .address {
+    width: 100%;
+    height: 56px;
+    padding: 14px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    resize: none;
+}
